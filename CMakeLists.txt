@@ -1188,7 +1188,7 @@ endif()
 # and so it fails the C11 atomics tests of the CTS
 # with '... unknown call to _cl_atomic_store_explicit' or similar
 if(LLVM_VERSION VERSION_GREATER_EQUAL 14.0)
-  set(HOST_DEVICE_CL_VERSION_MAJOR 3)
+  set(HOST_DEVICE_CL_VERSION_MAJOR 2)
   set(HOST_DEVICE_CL_VERSION_MINOR 0)
 else()
   set(HOST_DEVICE_CL_VERSION_MAJOR 1)
